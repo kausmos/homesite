@@ -19,6 +19,7 @@
 
 	.dgpimage,.keyimage,.bagimage, .damimage, .netawardimage{
 		height:30vh;
+		
 	}
 	.dgpimage img{
 		height: 180px;
@@ -49,8 +50,8 @@
 		margin-top: 20px;
 	}
 	.netawardimage img{
-		height: 200px;
-		width: 200px;
+		height: 150px;
+		width: 150px;
 		margin-bottom:10px;
 		max-width: 90vw;
 		margin-top: 20px;
@@ -58,7 +59,7 @@
 	}
 
 	.welcome h1{
-		font-size:30px;
+		font-size:22px;
 		margin-bottom: 0;
 		margin-left: 50px;
 	}
@@ -105,6 +106,15 @@
 
 	.mobileonly{
 		display: block;
+	}
+	.prev, .next{
+	
+	border-right: 2px solid #A17070;
+	border-radius:50%;
+	box-shadow: 4px 2px #285170;
+	-moz-box-shadow: 4px 2px #285170;
+    -webkit-box-shadow: 4px 2px #285170;
+    box-sizing: border-box;
 	}
 
 
@@ -160,6 +170,14 @@
 	.desktoponly{
 		display: none;
 	}
+	.prev, .next{
+	
+	border-right: 3px solid #A17070;
+	border-radius:50%;
+	box-shadow: 4px 2px #285170;
+	-moz-box-shadow: 4px 2px #285170;
+    -webkit-box-shadow: 4px 2px #285170;
+}
 
 }
 
@@ -242,6 +260,15 @@
 	.mobileonly{
 		display: none;
 	}
+	.prev, .next{
+	
+	border-right: 4px solid #A17070;
+	border-radius:50%;
+	box-shadow: 4px 2px #285170;
+	-moz-box-shadow: 4px 2px #285170;
+    -webkit-box-shadow: 4px 2px #285170;
+	
+	}
 
 }
 
@@ -254,7 +281,7 @@ html{
 
 body{
 	background: #335D82;
-	font-family: 'Roboto', sans-serif; !important
+	font-family: 'Roboto', sans-serif !important;
 	width:100vw;	
 	text-align: center;
 	overflow-x:hidden;
@@ -266,7 +293,7 @@ body{
 	width: 1200px ;
 	position: fixed;
 	top: 0px;
-	background:: #6D5C80;
+	background: #6D5C80;
 	height: 50px;
 }
 
@@ -277,8 +304,9 @@ body{
 }
 
 .navbar-brand{
-	color:#E6A996;
+	color:#FCC99F;
 }
+
 
 .nav-link{
 	color: #FC8193;
@@ -300,7 +328,7 @@ body{
 }
 
 .dgpimage, .bagimage, .keyimage{
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 
@@ -378,7 +406,7 @@ body{
 }
 
 .xpadleft{
-	padding-left:20px;
+	padding-left:25px;
 }
 
 .toggletopic{
@@ -424,7 +452,7 @@ body{
 }
 
 .bagdetails p{
-	margin-bottom: 15px;
+	margin-bottom: 9px;
 }
 .workdetails p{
 	margin-bottom: 15px;
@@ -441,4 +469,17 @@ body{
 
 #normalheight{
 	line-height: 1em;
+}
+
+.contactlinks a{
+	color: #D9736A;
+}
+
+.contactlinks a:hover{
+	color: #F26666;
+	text-decoration:none;
+}
+
+.topic{
+	margin-top:2px;
 }
