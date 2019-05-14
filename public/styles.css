@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
 
 
 
@@ -273,7 +274,7 @@
 }
 
 html{
-	text-transform:: uppercase;
+	text-transform: uppercase;
 	width: 100vw;
 	text-align:right;
 	overflow-x: hidden;
@@ -298,7 +299,7 @@ body{
 }
 
 .navbar {
-	background: #6D5C80;
+	background: #453359;
 	width: 100vw;
 
 }
@@ -482,4 +483,56 @@ body{
 
 .topic{
 	margin-top:2px;
+}
+
+.w-80{
+	width: 80%;
+}
+
+.onsidesection h4{
+	color: #ff7700;
+}
+
+.chatshot img, .appshot img{
+	max-width: 100%;
+}
+
+.upcomingbox{
+	width:250px;
+	height:250px;
+	color: #222;
+	background: linear-gradient(to bottom right,#EDF2D4,#FFD7A7);
+	border-radius: 15px;
+}
+
+.upcomingbox p{
+	font-family: 'Roboto', sans-serif;
+	text-transform: none;
+	font-size:18px;
+}
+
+.upcomingbox h3{
+	color:brown;
+	font-family: 'Righteous', 'Roboto', sans-serif;
+	
+}
+
+.visitbtn{
+	
+	outline:none;
+	background: none;
+    border: 1px solid #ffc494;
+    color: #ffc494;
+    border-radius: 3px;
+    width:150px;
+	font-size:18px;
+	
+}
+
+.onsidesection{
+	margin-top:100px !important;
+}
+
+.navbar-brand{
+	text-transform: none;
 }
