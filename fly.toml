@@ -27,4 +27,4 @@ protocol = "tcp"
   port = 443
 
 [build]
-  image = "flyio/hellofly:latest"
+  image = "Dockerfile"
