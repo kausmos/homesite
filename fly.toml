@@ -7,8 +7,8 @@ primary_region = "syd"
 image = "kausmoss/kaustuva:latest"
 
 [env]
-PORT = "8080"
-PRIMARY_REGION = "syd"
+APP_ENV = "production"
+APP_URL = "https://kaustuva.fly.dev"
 
 [[services]]
 internal_port = 8_080
