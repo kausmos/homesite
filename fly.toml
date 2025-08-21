@@ -27,4 +27,4 @@ protocol = "tcp"
   port = 443
 
 [build]
-  image = "https://hub.docker.com/r/kausmoss/kaustuva:latest"
+  image = "https://hub.docker.com/r/kausmoss/kaustuva"
