@@ -411,7 +411,7 @@ body{
 }
 
 .toggletopic{
-	height: 100vh;
+	min-height: 100vh;
 }
 
 #hometown, #work {
