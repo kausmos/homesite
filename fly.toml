@@ -1,7 +1,10 @@
 app = "kaustuva"
 kill_signal = "SIGINT"
-kill_timeout = 5
+kill_timeout = "5s"
 primary_region = "syd"
+
+[build]
+image = "kausmoss/kaustuva:latest"
 
 [env]
 PORT = "8080"
@@ -25,6 +28,3 @@ protocol = "tcp"
   [[services.ports]]
   handlers = [ "tls", "http" ]
   port = 443
-
-[build]
-  image = "kausmoss/kaustuva:latest"
