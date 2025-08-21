@@ -8,6 +8,7 @@ image = "kausmoss/kaustuva:latest"
 
 [env]
 PORT = "8080"
+IP = "0.0.0.0"
 PRIMARY_REGION = "syd"
 
 [[services]]
