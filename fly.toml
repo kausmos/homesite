@@ -9,6 +9,7 @@ image = "kausmoss/kaustuva:latest"
 [env]
 APP_ENV = "production"
 APP_URL = "https://kaustuva.fly.dev"
+PORT = "8080"
 
 [[services]]
 internal_port = 8_080
