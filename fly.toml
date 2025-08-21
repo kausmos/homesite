@@ -27,5 +27,4 @@ protocol = "tcp"
   port = 443
 
 [build]
-  builder = "paketobuildpacks/builder:base"
-  buildpacks = ["gcr.io/paketo-buildpacks/nodejs"]
+  image = "https://hub.docker.com/r/kausmoss/kaustuva:latest"
