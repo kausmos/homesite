@@ -7,9 +7,8 @@ primary_region = "syd"
 image = "kausmoss/kaustuva:latest"
 
 [env]
-APP_ENV = "production"
-APP_URL = "https://kaustuva.fly.dev"
 PORT = "8080"
+PRIMARY_REGION = "syd"
 
 [[services]]
 internal_port = 8_080
@@ -29,6 +28,3 @@ protocol = "tcp"
   [[services.ports]]
   handlers = [ "tls", "http" ]
   port = 443
-
-[[services.http_checks]]
-    grace_period = "10s"
