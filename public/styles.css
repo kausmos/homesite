@@ -544,3 +544,7 @@ body{
 .navbar-brand{
 	text-transform: none;
 }
+
+a:link {
+	color: #A17070
+}
